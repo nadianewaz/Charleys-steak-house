@@ -1,6 +1,7 @@
 .background{
     height: auto;
     width: 600px;
+    
 }
 * {
     margin: 0;
@@ -51,11 +52,44 @@
   .head{
     padding-top: 10px;
     padding-left: 50px;
-    background-color: red;
+    background-color: whitesmoke;
   }
   .paragraph{
-    margin-top: 90px;
+    padding-top: 90px;
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
-    background-color: red;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    background-color: whitesmoke;
+  
+  }
+  .headtag{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    background-color: whitesmoke;
+  }
+  .imgtag{
+    align-items: center;
+    background-color: whitesmoke;
+    padding-left: 55px;
+  }
+  .hd {
+    background: #3A3B3C;
+    height: 250px;
+    line-height: 230px;
+    
+  }
+  .cont {
+    max-width: 86%;
+    margin: auto;
+  }
+  .mn_a {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bookonline{
+    text-decoration: underline;
+    color: wheat;
+    
+    
   }
