@@ -50,7 +50,7 @@
     color: black;
   }
   .head{
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 50px;
     background-color: whitesmoke;
   }
@@ -64,32 +64,78 @@
   
   }
   .headtag{
+    padding-top: 0px;
     text-align: center;
     font-family: "Playfair Display", serif;
     background-color: whitesmoke;
   }
   .imgtag{
+    padding-top: 0px;
     align-items: center;
     background-color: whitesmoke;
     padding-left: 55px;
   }
   .hd {
-    background: #3A3B3C;
-    height: 250px;
-    line-height: 230px;
+    background: tomato;
+    height: 200px;
+    line-height: 200px;
     
   }
   .cont {
     max-width: 86%;
     margin: auto;
+    
   }
   .mn_a {
+    
     display: flex;
     justify-content: space-between;
+  
+  
+    
   }
-  .bookonline{
+  .bookonline_a{
     text-decoration: underline;
     color: wheat;
-    
-    
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
   }
+  .valentinesday_a{
+    text-decoration: underline;
+    color: wheat;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    
+}
+hr{
+  border: 1px solid wheat;
+}
+.newsevents{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+.card{
+height: 400px;
+width: 350px;
+justify-content: space-around;
+flex-flow: wrap;
+
+
+}
